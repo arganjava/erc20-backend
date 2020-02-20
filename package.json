@@ -7,6 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "truffle-test": "truffle test ./test/contracts/*.js",
     "truffle-compile": "truffle compile",
     "truffle-migrate-development": "truffle migrate --network development",
@@ -24,7 +25,12 @@
   "homepage": "https://github.com/arganjava/crytocurrency-sale#readme",
   "dependencies": {
     "bignumber.js": "^9.0.0",
+    "body-parser": "^1.19.0",
     "chai": "^4.2.0",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "express": "^4.17.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "morgan": "~1.9.1"
   }
 }
